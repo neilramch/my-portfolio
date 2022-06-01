@@ -65,6 +65,7 @@ header a:active {
 .bio img {
     max-height: 500px;
     border-radius: 250px;
+    margin-left: 2pc;
 }
 
 .biography {
@@ -74,6 +75,15 @@ header a:active {
     font-family: monospace;
 }
 
+.contact {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    font-family: monospace;
+    line-height: 4pc;
+    font-size: 20px;
+}
+
 .biography h3 {
     font-size: 20px;
     text-align: center;
@@ -81,13 +91,13 @@ header a:active {
     text-decoration: underline;
 }
 
-.projects {
+#projects {
     margin-top: 120px;
     margin-left: 200px;
 }
 
 
-.projects h3 {
+#projects h3 {
     text-align: center;
     background-color: rgba(235, 235, 235, 0.815);
     width: 700px;
@@ -100,7 +110,7 @@ header a:active {
 
 }
 
-.projects li {
+#projects li {
     font-size: 20px;
     margin-top: 50px;
     line-height: 5pc;
@@ -108,12 +118,12 @@ header a:active {
     text-decoration: underline;
 }
 
-.projects p {
+#projects p {
     color: white;
     font-size: 14px;
 }
 
-.projects img {
+#projects img {
     max-width: 900px;
     margin-top: 20px;
 }
